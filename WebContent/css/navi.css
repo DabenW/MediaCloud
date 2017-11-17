@@ -1,0 +1,47 @@
+body{
+	text-align: center;
+	font-family:'微软雅黑','Times New Roman', Times, serif;
+	}
+.navi_head{
+	height:60px;
+	background-color:#000;
+}
+.navi_body{
+	overflow:hidden;
+	height:60px;
+	background:#FFFCEC;
+	transition:height ease 0.5s;
+}
+.navi_body:hover{
+	height:150px;
+}
+
+.navi_head>div>span{
+	width:150px;
+	text-align:center;
+	height:20px;
+	display:inline-block;
+	font-weight:bold;
+	color:#FFF;
+	font-size:14px;
+	vertical-align:top;
+}
+
+.navi_head>div>span>p a{
+	color:#000;
+	text-decoration:none;
+}
+.navi_head>div>span>p a:hover{
+	color:#66B3FF;
+	text-decoration:underline;
+}
+
+.navi_title{
+	font-size:18px;
+	line-height:50px;
+	margin-top:0;
+}
+
+.navi_head>div>span:hover{
+	background:rgba(100,100,100,0.2);
+}

@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+ ul,
+ p
+ p1
+ li
+{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+	max-width:100%;
+    height:100%;
+}
+
+#container p {
+	font-size: 35px;
+    line-height: 1;
+    text-align:center;
+}
+
+#container p1 {
+	font-size: 19px;
+    line-height: 1.3;
+    text-align:center;
+}
+
+#container span {
+	font-size: 39px;
+    line-height: 1;
+    text-align:center;
+}
+
+ul {
+  list-style: none;
+}
+
+#container{
+	width: 1000px;
+    margin: 0 auto 80px;
+}
+
+#main {
+   width:1000px;
+   float: left;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+*Album
+* * * * * * * * * * * * * * * * * * * * */
+#Album {
+  margin-bottom: 60px;
+}
+
+#Album .list  {
+	clear: both;
+    margin-bottom: 10px;
+}
+
+#Album .list li{
+	padding:40px;
+	background-color: rgb(237,249,96);
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+
+#Album .list li .thumb {
+  border: solid 1px #666;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#Album h1 {
+  color: #000;
+  margin-bottom: 6px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+* show
+* * * * * * * * * * * * * * * * * * * * */
+#Show {
+  margin-bottom: 60px;
+}
+
+#Show .list  {
+	clear: both;
+    margin-bottom: 10px;
+}
+
+#Show .list li{
+	padding:40px;
+	background-color: rgb(50,220,235);
+    border: solid 1px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+
+#Show .list li .thumb {
+  border: solid 1px #666;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#Show h1 {
+  color: #000;
+  margin-bottom: 6px;
+}
+
+ 
+.vintage{
+background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+text-shadow: 5px -5px black, 4px -4px white;
+font-weight: bold;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text }
+
+.stroke{
+color: transparent;
+-webkit-text-stroke: 1px black;
+letter-spacing: 0.04em;
+background-color: }
+
+.threed{
+color: #fafafa;
+letter-spacing: 0;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 }
